@@ -1,0 +1,298 @@
+h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 70px;
+}
+
+h2, h3{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 46px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+body{
+    background-image: url("pictures/background.jpg");
+    text-align: justify;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+}
+
+footer{
+    background-color: #F2F2F2;
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#footer-logo{
+    border-top: 1px solid black;
+    object-fit: scale-down;
+    max-width: 50%;
+    min-width: 100px;
+}
+
+footer th{
+    border-top: 1px solid black;
+}
+
+.footer-table-col{
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 250px;
+}
+
+.footer-table-col tr{
+    height: 30px;
+}
+
+footer a:link, footer a:visited{
+    color: inherit;
+    text-decoration: none;
+}
+
+footer a:hover, footer a:active{
+    color: #00720F;
+}
+
+#footer-copyright{
+    display: block;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+/* --- Navigation Bar --- */
+#navbar-pic{
+    border-radius: 10px;
+    max-height: 100px;
+}
+
+.nav-link-button{
+    border-radius: 10px;
+    margin-right: 40px;
+    margin-top: 10px;
+    text-align: center;
+    transition: background-color 500ms linear,
+                color 500ms linear,
+                transform 500ms linear;
+    width: 120px;
+}
+
+.nav-link-button:hover{
+    background-color: rgb(0, 0, 0, 0.05);
+    color: #00720F;
+    font-weight: bold;
+    transform: translateY(-5px);
+}
+
+.active{
+    background-color: rgb(0, 0, 0, 5%);
+    font-weight: bold;
+    pointer-events: none;
+}
+
+/* --- Home Page --- */
+#main-home-pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%;
+}
+
+#main-home-pic-container{
+    background-color: black;
+}
+
+.container{
+    max-width: 75%;
+}
+
+.home-text-container{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.home-pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 400px;
+}
+
+#fight-pic{
+    max-width: 100%;
+    min-width: 250px;
+}
+
+#fight-pic{
+    max-height: 300px;
+}
+
+#carousel-moves{
+    display: block;
+    margin: auto;
+    max-width: 300px;
+}
+
+/* --- History Page --- */
+#history-title{
+    display: block;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.history-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.history-pic{
+    display: block;
+    margin: 30px auto;
+    width: 90%;
+}
+
+/* --- Shop Page --- */
+#shop-body{
+    background-color: white;
+    background-image: none;
+}
+
+#shop-body hr{
+    background-color: #38340e;
+    height: 5px;
+    margin: 50px 0;
+    opacity: 1;
+}
+
+#shop-bar a{
+    color: black;
+    text-decoration: none;
+}
+
+#shop-bar a:hover{
+    color: green;
+}
+
+.content-list{
+    display: none;
+    list-style-type: none;
+    margin-top: 10px;
+    text-align: left;
+}
+
+#shop-bar:hover #instruments-content,
+#shop-bar:hover #clothes-content{
+    display: block;
+}
+
+.shop-bar-link{
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 2px;
+    padding: 0.5em;
+    text-align: center;
+}
+
+#shop-page{
+}
+
+#instruments-main-container{
+    background-image: initial;
+}
+
+#instruments-main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.shop-item-container{
+    background-image: linear-gradient(to left, #F2F2F2, white);
+    display: block;
+    max-width: 100%;
+    text-align: center;
+}
+
+.shop-item-container ul{
+    list-style: none;
+}
+
+.shop-item{
+    border-radius: 20px;
+    display: block;
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shop-item-small{
+    border: 0.5px solid grey;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+.shop-item-small:hover{
+    border-color: black;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.shop-button-container{
+    min-height: 80px;
+}
+
+.shop-button-external{
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 55px)
+}
+
+.buy-button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.outofstock-text{
+    display: none;
+}
+
+/* --- Movements Page --- */
+#movements-page h1{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#movements-page h2{
+    margin: 20px;
+}
+
+#ginga-container{
+    margin: 30px;
+    text-align: center;
+}
+
+#ginga-text{
+    margin-top: 30px;
+}
+
+#ginga-video{
+    width: 70%;
+}
+
+#carousel-moves:hover .carousel-control-prev-icon,
+#carousel-moves:hover .carousel-control-next-icon{
+    background-color: #A9A9A9;
+}
+
+.carousel{
+    max-width: 100%;
+    min-width: 280px;
+}
