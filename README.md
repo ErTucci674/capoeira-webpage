@@ -8,7 +8,7 @@ Among the several sub-tasks, I needed to use the CSS Framework Bootstrap and mak
 The website includes four pages:
 + **Home** - A brief about Capoeira and what it is
 + **History** - Some history of Capoeira
-+ **Shop** - (Not functioning) a sale page where to buy Capoeira clothes, instruments and accessories 
++ **Shop** - A sale page where to buy Capoeira clothes, instruments and accessories 
 + **Movements** - Explaining the Capoeira basic movements; Short _stance_ tutorial
 
 Each web page incorporates a header and a footer with a nagivation bar that allows the user to switch through the different pages and headings.
@@ -19,36 +19,30 @@ Each web page incorporates a header and a footer with a nagivation bar that allo
 + JavaScript
 
 ## Getting Started
+Clone the repository to your local machine:
+```
+git clone https://github.com/ErTucci674/capoeira-webpage.git
+```
 
-### Files Needed
-**HTML files**:
-+ index.html
-+ history.html
-+ shop.html
-+ movements.html
-
-**CSS files**:
-+ styles.css
-
-**JavaScrpit files**:
-+ interactive.js
-
-**Pictures Folders**
-+ pictures
-
-### How to execute
+## How to execute
 All you need is to keep all of the files\folders in the same folder and open the _index.html_ file (home page) with any Browser.
 
 ## Project Review and Roadmap
 In this experience I have learnt the basics of Web designing and web development. Among these:
 + Page Structure - HTML
-+ Page Esthetics - CSS
++ Page Aesthetics - CSS
 + Animations/Interactions - CSS/JavaScript
 + User Responsiveness - CSS/JavaScript
 
-If I had to approach this project again, I would re-design the esthetics and user interactive interface on smaller devices such as phones and ipads as the current structure allows small updatable changes and no much "future proof" reliability.
+If I had to approach this project again, I would re-design the aesthetics and user interactive interface on smaller devices such as phones and ipads. The current structure allows small updatable changes and no much "future proof" reliability.
 
 In future updates an improvement that could be integrated would be the "auto" creation of similar web pages. In other words, avoding the repeatition of code. I personally know that _Python_ and its web framework _Flask_ would do the job. However, as my Course Task was mainly focused on the basic development of a website, _Flask_ was not introduced yet.
+
+## Reference Links (Text/Info used on the website)
++ ABOUT CAPOEIRA - https://www.capoeirafitnessdc.com/about-2
++ HISTORY - https://www.capoeirabrazilpelo.com/resources/capoeira-history/
++ MOVEMENTS - https://draculinho.wordpress.com/capoeira-movements/
++ (extra) - https://en.wikipedia.org//wiki/List_of_capoeira_techniques
 
 ## Aknowledgements
 Harvard University Online Course (edx50) - https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science
