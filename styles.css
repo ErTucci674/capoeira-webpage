@@ -1,23 +1,44 @@
-h1{
+/*
+Copyright (C) 2023 Alessandro Amatucci Girlanda
+
+This file is part of Capoeira - Website.
+
+Capoeira - Website is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Capoeira - Website is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Capoeira - Website. If not, see
+<https: //www.gnu.org/licenses />.
+*/
+
+h1 {
     font-family: 'Fjalla One', sans-serif;
     font-size: 70px;
 }
 
-h2, h3{
+h2,
+h3 {
     font-family: 'Fjalla One', sans-serif;
     font-size: 46px;
     margin-top: 20px;
     text-align: left;
 }
 
-body{
+body {
     background-image: url("pictures/background.jpg");
     text-align: justify;
     font-family: 'Libre Baskerville', serif;
     font-size: 16px;
 }
 
-footer{
+footer {
     background-color: #F2F2F2;
     font-size: 14px;
     padding-bottom: 10px;
@@ -25,157 +46,159 @@ footer{
     text-align: center;
 }
 
-#footer-logo{
+#footer-logo {
     border-top: 1px solid black;
     object-fit: scale-down;
     max-width: 50%;
     min-width: 100px;
 }
 
-footer th{
+footer th {
     border-top: 1px solid black;
 }
 
-.footer-table-col{
+.footer-table-col {
     margin-left: auto;
     margin-right: auto;
     min-width: 250px;
 }
 
-.footer-table-col tr{
+.footer-table-col tr {
     height: 30px;
 }
 
-footer a:link, footer a:visited{
+footer a:link,
+footer a:visited {
     color: inherit;
     text-decoration: none;
 }
 
-footer a:hover, footer a:active{
+footer a:hover,
+footer a:active {
     color: #00720F;
 }
 
-#footer-copyright{
+#footer-copyright {
     display: block;
     margin-bottom: 0;
     margin-top: 20px;
 }
 
 /* --- Navigation Bar --- */
-#navbar-pic{
+#navbar-pic {
     border-radius: 10px;
     max-height: 100px;
 }
 
-.nav-link-button{
+.nav-link-button {
     border-radius: 10px;
     margin-right: 40px;
     margin-top: 10px;
     text-align: center;
     transition: background-color 500ms linear,
-                color 500ms linear,
-                transform 500ms linear;
+        color 500ms linear,
+        transform 500ms linear;
     width: 120px;
 }
 
-.nav-link-button:hover{
+.nav-link-button:hover {
     background-color: rgb(0, 0, 0, 0.05);
     color: #00720F;
     font-weight: bold;
     transform: translateY(-5px);
 }
 
-.active{
+.active {
     background-color: rgb(0, 0, 0, 5%);
     font-weight: bold;
     pointer-events: none;
 }
 
 /* --- Home Page --- */
-#main-home-pic{
+#main-home-pic {
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 75%;
 }
 
-#main-home-pic-container{
+#main-home-pic-container {
     background-color: black;
 }
 
-.container{
+.container {
     max-width: 75%;
 }
 
-.home-text-container{
+.home-text-container {
     margin-bottom: 30px;
     margin-top: 30px;
 }
 
-.home-pic{
+.home-pic {
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-height: 400px;
 }
 
-#fight-pic{
+#fight-pic {
     max-width: 100%;
     min-width: 250px;
 }
 
-#fight-pic{
+#fight-pic {
     max-height: 300px;
 }
 
-#carousel-moves{
+#carousel-moves {
     display: block;
     margin: auto;
     max-width: 300px;
 }
 
 /* --- History Page --- */
-#history-title{
+#history-title {
     display: block;
     margin: 30px 0;
     text-align: center;
 }
 
-.history-container{
+.history-container {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
 }
 
-.history-pic{
+.history-pic {
     display: block;
     margin: 30px auto;
     width: 90%;
 }
 
 /* --- Shop Page --- */
-#shop-body{
+#shop-body {
     background-color: white;
     background-image: none;
 }
 
-#shop-body hr{
+#shop-body hr {
     background-color: #38340e;
     height: 5px;
     margin: 50px 0;
     opacity: 1;
 }
 
-#shop-bar a{
+#shop-bar a {
     color: black;
     text-decoration: none;
 }
 
-#shop-bar a:hover{
+#shop-bar a:hover {
     color: green;
 }
 
-.content-list{
+.content-list {
     display: none;
     list-style-type: none;
     margin-top: 10px;
@@ -183,11 +206,11 @@ footer a:hover, footer a:active{
 }
 
 #shop-bar:hover #instruments-content,
-#shop-bar:hover #clothes-content{
+#shop-bar:hover #clothes-content {
     display: block;
 }
 
-.shop-bar-link{
+.shop-bar-link {
     background-color: #F2F2F2;
     border-radius: 10px;
     display: block;
@@ -197,32 +220,31 @@ footer a:hover, footer a:active{
     text-align: center;
 }
 
-#shop-page{
-}
+#shop-page {}
 
-#instruments-main-container{
+#instruments-main-container {
     background-image: initial;
 }
 
-#instruments-main{
+#instruments-main {
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
 }
 
-.shop-item-container{
+.shop-item-container {
     background-image: linear-gradient(to left, #F2F2F2, white);
     display: block;
     max-width: 100%;
     text-align: center;
 }
 
-.shop-item-container ul{
+.shop-item-container ul {
     list-style: none;
 }
 
-.shop-item{
+.shop-item {
     border-radius: 20px;
     display: block;
     max-height: 300px;
@@ -230,7 +252,7 @@ footer a:hover, footer a:active{
     margin-right: auto;
 }
 
-.shop-item-small{
+.shop-item-small {
     border: 0.5px solid grey;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -238,61 +260,61 @@ footer a:hover, footer a:active{
     width: 40px;
 }
 
-.shop-item-small:hover{
+.shop-item-small:hover {
     border-color: black;
     cursor: pointer;
     opacity: 1;
 }
 
-.shop-button-container{
+.shop-button-container {
     min-height: 80px;
 }
 
-.shop-button-external{
+.shop-button-external {
     position: absolute;
     bottom: 0;
     left: calc(50% - 55px)
 }
 
-.buy-button{
+.buy-button {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.outofstock-text{
+.outofstock-text {
     display: none;
 }
 
 /* --- Movements Page --- */
-#movements-page h1{
+#movements-page h1 {
     margin-top: 20px;
     text-align: center;
 }
 
-#movements-page h2{
+#movements-page h2 {
     margin: 20px;
 }
 
-#ginga-container{
+#ginga-container {
     margin: 30px;
     text-align: center;
 }
 
-#ginga-text{
+#ginga-text {
     margin-top: 30px;
 }
 
-#ginga-video{
+#ginga-video {
     width: 70%;
 }
 
 #carousel-moves:hover .carousel-control-prev-icon,
-#carousel-moves:hover .carousel-control-next-icon{
+#carousel-moves:hover .carousel-control-next-icon {
     background-color: #A9A9A9;
 }
 
-.carousel{
+.carousel {
     max-width: 100%;
     min-width: 280px;
 }

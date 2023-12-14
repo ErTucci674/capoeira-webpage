@@ -44,3 +44,6 @@ In future updates an improvement that could be integrated would be the "auto" cr
 
 ## Aknowledgements 🤝
 Harvard University Online Course (edx50) - https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science
+
+## Licence 🖋️
+This project is licensed under the terms of the GNU General Public License, version 3.0.
