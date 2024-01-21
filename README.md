@@ -19,7 +19,9 @@ Each web page incorporates a header and a footer with a nagivation bar that allo
 + JavaScript
 
 ## Getting Started 🗔
-Clone the repository to your local machine:
+You can click the following link to open the GitHub web page: https://ertucci674.github.io/capoeira-webpage/
+
+Otherwise, clone the repository to your local machine:
 ```
 git clone https://github.com/ErTucci674/capoeira-webpage.git
 ```
